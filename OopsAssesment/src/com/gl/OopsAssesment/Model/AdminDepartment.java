@@ -12,11 +12,6 @@ package com.gl.OopsAssesment.Model;
 
 public class AdminDepartment extends SuperDepartment {
 
-//	This constructor is used to decorate the output of Admin Department details.
-	public AdminDepartment() {
-		System.out.println("*****************  Admin Department  *********************\n");
-	}
-
 	@Override
 	public String departmentName() {
 		return "Welcome to Admin Department";
@@ -29,7 +24,7 @@ public class AdminDepartment extends SuperDepartment {
 
 	@Override
 	public String getWorkDeadline() {
-		return "Complete by End of the Day";
+		return "Complete by EOD";
 	}
 
 	/**

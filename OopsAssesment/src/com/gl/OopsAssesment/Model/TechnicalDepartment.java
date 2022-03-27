@@ -12,24 +12,19 @@ package com.gl.OopsAssesment.Model;
 
 public class TechnicalDepartment extends SuperDepartment {
 
-//	This constructor is used to decorate the output of Technical Department details
-	public TechnicalDepartment() {
-		System.out.println("*****************  Technical Department  *********************\n");
-	}
-
 	@Override
 	public String departmentName() {
-		return "Welcome to Technical Department";
+		return "Welcome to Tech Department";
 	}
 
 	@Override
 	public String getTodaysWork() {
-		return "Complete coding of Module-1";
+		return "Complete coding of Module 1";
 	}
 
 	@Override
 	public String getWorkDeadline() {
-		return "Complete by End of the Day";
+		return "Complete by EOD";
 	}
 
 	public String getTechStackInformation() {

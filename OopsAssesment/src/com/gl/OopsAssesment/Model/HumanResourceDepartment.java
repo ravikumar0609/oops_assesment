@@ -12,14 +12,9 @@ package com.gl.OopsAssesment.Model;
 
 public class HumanResourceDepartment extends SuperDepartment {
 
-//	This constructor is used to decorate the output of HR Department details.
-	public HumanResourceDepartment() {
-		System.out.println("*****************  Human Resource  Department  *********************\n");
-	}
-
 	@Override
 	public String departmentName() {
-		return "Welcome to Human Resource Department";
+		return "Welcome to HR Department";
 	}
 
 	@Override
@@ -29,11 +24,11 @@ public class HumanResourceDepartment extends SuperDepartment {
 
 	@Override
 	public String getWorkDeadline() {
-		return "Complete by End of the Day";
+		return "Complete by EOD";
 	}
 
 	public String doActivity() {
-		return "Team Lunch";
+		return "team Lunch";
 	}
 
 	/**
